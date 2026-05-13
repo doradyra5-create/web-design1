@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header header--black">
+        <a href="../index.html" class="header__logo">
+            <svg width="188" height="63">
+                <use xlink:href="../assets/sprite/sprite.svg#icon-logo-black"></use>
+            </svg>
+        </a>
+        <nav class="header__nav">
+            <button class="header__burger" aria-label="Меню">
+                <svg class="header__burger-icon" width="34" height="34">
+                    <use xlink:href="../assets/sprite/sprite.svg#burger-white"></use>
+                </svg>
+            </button>
+            <ul class="header__menu">
+                <li class="header__item">
+                    <a href="../index.html" class="header__link header__link--black-theme">главная</a>
+                </li>
+                <li class="header__item">
+                    <a href="../pages/author.html" class="header__link header__link--black-theme">Автор</a>
+                </li>
+                <li class="header__item">
+                    <a href="../pages/process.html" class="header__link header__link--black-theme">Процесс</a>
+                </li>
+                <li class="header__item header__item--active-black-theme">
+                    <a href="../pages/services.html" class="header__link header__link--black-theme">Услуги</a>
+                </li>
+                <li class="header__item">
+                    <a href="../pages/archive.html" class="header__link header__link--black-theme">Архив</a>
+                </li>
+                <li class="header__item">
+                    <a href="../pages/contacts.html" class="header__link header__link--black-theme">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="services">
+        <div class="services__card">
+            <div class="services__card-content">
+                
+                <h1 class="services__page-title">услуги</h1>
+
+                <div class="services__group">
+                    <div class="services__group-info">
+                        <h2 class="services__group-title">1. концептуализация с 0</h2>
+                        
+                        <div class="services__row">
+                            <span>логотип + мини-брендбук =</span>
+                            <span class="services__badge">стартовый пакет</span>
+                            <span class="services__price">/ от 180 $</span>
+                        </div>
+
+                        <div class="services__row">
+                            <span>логотип + брендбук + шаблоны постов =</span>
+                            <span class="services__badge">выгодный</span>
+                            <span class="services__price">/ от 230 $</span>
+                        </div>
+
+                        <div class="services__row">
+                            <span>логотип + брендбук + шаблоны + философия + опция на выбор =</span>
+                            <span class="services__badge">продвинутый</span>
+                            <span class="services__price">/ от 380 $</span>
+                        </div>
+                    </div>
+
+                    <div class="services__tags-cloud services__tags-cloud--desktop">
+                        <div class="services__tags-row">
+                            <span class="services__tag">Анимация</span>
+                        </div>
+                        <div class="services__tags-row">
+                            <span class="services__tag">Пост</span>
+                            <span class="services__tag">Веб-дизайн</span>
+                        </div>
+                        <div class="services__tags-row">
+                            <span class="services__tag">Ретушь</span>
+                            <span class="services__tag">Маскот</span>
+                            <span class="services__tag">Мерч</span>
+                        </div>
+                        <div class="services__tags-row">
+                            <span class="services__tag">Иллюстрация</span>
+                            <span class="services__tag">Комикс</span>
+                        </div>
+                        <div class="services__tags-row">
+                            <span class="services__tag">Мокап</span>
+                            <span class="services__tag">Буклет</span>
+                        </div>
+                        <div class="services__tags-row">
+                            <span class="services__tag">Визитка</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__group">
+                    <div class="services__group-info">
+                        <h2 class="services__group-title">2. работа по готовому брендбуку</h2>
+                        <div class="services__flex-row">
+                            <div class="services__price-item">
+                                <div class="services__white-pill">креатив в соцсетях</div>
+                                <span class="services__price">/ от 20 $</span>
+                            </div>
+                            <div class="services__price-item">
+                                <div class="services__white-pill">печатная продукция</div>
+                                <span class="services__price">/ от 35 $</span>
+                            </div>
+                            <div class="services__price-item">
+                                <div class="services__white-pill">разработка сайта</div>
+                                <span class="services__price">/ от 60 $</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="services__corner-icon" aria-label="Услуги">
+                <svg viewBox="0 0 88 88">
+                    <use xlink:href="../assets/sprite/sprite.svg#icon-white"></use>
+                </svg>
+            </a>
+        </div>
+
+        <div class="services__card-mobile">
+            <div class="services__mobile-title-pill">УСЛУГИ</div>
+
+            <div class="services__accordion">
+                <button class="services__mobile-category-pill js-accordion-toggle">
+                    Концептуализация С 0
+                </button>
+                <div class="services__accordion-content">
+                    <div class="services__accordion-inner">
+                        <div class="services-accordion__row">
+                            логотип + мини-брендбук = <span class="services-accordion__underline">стартовый пакет</span> <span class="services-accordion__red">/ от 180 $</span>
+                        </div>
+                        <div class="services-accordion__row">
+                            логотип + брендбук + шаблоны постов = <span class="services-accordion__underline">выгодный</span> <span class="services-accordion__red">/ от 230 $</span>
+                        </div>
+                        <div class="services-accordion__row">
+                            логотип + брендбук + философия бренда + опция на выбор = продвинутый <span class="services-accordion__red">/ от 380 $</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services__accordion">
+                <button class="services__mobile-category-pill js-accordion-toggle">
+                    С Готовым Брендбуком
+                </button>
+                <div class="services__accordion-content">
+                    <div class="services__accordion-inner">
+                        <div class="services-accordion__row">
+                            креатив в соцсетях <span class="services-accordion__red">/ от 20 $</span>
+                        </div>
+                        <div class="services-accordion__row">
+                            печатная продукция <span class="services-accordion__red">/ от 35 $</span>
+                        </div>
+                        <div class="services-accordion__row">
+                            разработка сайта <span class="services-accordion__red">/ от 60 $</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="services__cta-mobile">
+            <div class="services__cta-mobile-text">
+                БЕСПЛАТНАЯ &rarr;<br>КОНСУЛЬТАЦИЯ<br>ПО КНОПКЕ
+            </div>
+            <a href="../pages/contacts.html" class="services__cta-mobile-btn">
+                связаться
+            </a>
+        </div>
+
+        <div class="services__tags-cloud services__tags-cloud--mobile">
+            <div class="services__tags-row">
+                <span class="services__tag">Анимация</span>
+            </div>
+            <div class="services__tags-row">
+                <span class="services__tag">Пост</span>
+                <span class="services__tag">Веб-дизайн</span>
+            </div>
+            <div class="services__tags-row">
+                <span class="services__tag">Ретушь</span>
+                <span class="services__tag">Маскот</span>
+                <span class="services__tag">Мерч</span>
+            </div>
+            <div class="services__tags-row">
+                <span class="services__tag">Иллюстрация</span>
+                <span class="services__tag">Комикс</span>
+            </div>
+            <div class="services__tags-row">
+                <span class="services__tag">Мокап</span>
+                <span class="services__tag">Буклет</span>
+            </div>
+            <div class="services__tags-row">
+                <span class="services__tag">Визитка</span>
+            </div>
+        </div>
+
+        <hr class="services__separator">
+
+        <div class="services__cta">
+            <div class="services__cta-text">
+                бесплатная консультация по кнопке
+            </div>
+            <div class="services__cta-arrow">
+                
+                <svg viewBox="0 0 60 40">
+                    <use xlink:href="../assets/sprite/sprite.svg#icon-cta-arrow"></use>
+                </svg>
+            </div>
+            <a href="../pages/contacts.html" class="services__cta-btn">
+                связаться
+            </a>
+        </div>
+
+        <div class="services__included">
+            <div class="services__included-left">
+                <h2 class="services__included-title">что входит в услугу?</h2>
+                <p class="services__included-text">
+                    We do take care about the whole picture and story of your’s. We try hard to underline not the price of your product, but your priceless ideaWe do take care about the whole picture and story of your’s. We try hard to underline not the price of your product, but your priceless idea.
+                </p>
+            </div>
+
+            <div class="services__included-plus">
+                +
+            </div>
+
+            <div class="services__included-right">
+                <ul class="services__included-list">
+                    <li>конкурентный анализ</li>
+                    <li>проверка текста на грамотность</li>
+                    <li>генерация изображений</li>
+                    <li>5 первичных правок</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="services__separator">
+
+        <div class="services__extra">
+            <h3 class="services__extra-title">
+                НЕ УВЕРЕНЫ В ТИПЕ УСЛУГИ / ВАШ ПРОЕКТ НЕОРДИНАРНЫЙ?
+            </h3>
+
+            <div class="services__banner">
+                <img src="../assets/img/services-1.png" alt="Проект Fairytale" class="services__banner-img">
+
+                <a href="#" class="services__banner-icon" aria-label="Свяжитесь с нами">
+                    <svg viewBox="0 0 88 88">
+                        <use xlink:href="../assets/sprite/sprite.svg#icon-white"></use>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="services__extra-bottom">
+                <div class="services__extra-pill">
+                    МЫ ЛЮБИМ РАБОТУ С НЕОБЫЧНЫМИ ИДЕЯМИ!
+                </div>
+                <a href="../pages/contacts.html" class="services__cta-btn">
+                    связаться
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">
+            2026
+        </p>
+        <p class="footer__text">
+            создавай визуальные вселенные
+        </p>
+        <p class="footer__text">
+            руда дизайн
+        </p>
+    </footer>
+    <script type="module" src="../js/main.js"></script>
+
+</body>
+</html>
