@@ -1,2 +1,1 @@
-# web-design1
-Ruda design website
+# Руденко Дарья, 2-ГД-35, 2026
