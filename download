@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+p,
+h1,
+h2,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: var(--color-refresh-black);
+    border: none;
+    box-sizing: border-box;
+    overflow-x: hidden; 
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-white);
+    
+}
