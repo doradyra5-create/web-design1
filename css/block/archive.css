@@ -1,4 +1,4 @@
-﻿.archive {
+.archive {
     padding: 39px 60px;
 }
 
@@ -160,7 +160,7 @@
     color: var(--color-black);
     text-align: center;
     margin-bottom: 53px;
-    border-radius: 48px;
+    border-radius: 100px;
     padding: 26px 40px;
     font-size: 48px;
 
@@ -289,8 +289,8 @@
     }
 
     .archive__btn {
-        font-size: 22px;
-        padding: 18px 20px;
+        font-size: 16px;
+        padding: 9px 20px;
         width: 100%;
     }
 }

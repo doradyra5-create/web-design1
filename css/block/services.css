@@ -43,15 +43,26 @@
     background-color: var(--color-refresh-black);
     color: var(--color-white);
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: clamp(24px, 3vw, 40px);
     font-weight: 400;
     letter-spacing: 0.05em;
     text-align: center;
     padding: 20px;
     border-radius: 60px;
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto 20px auto;
+    width: 88%;
+    margin: 0 auto 20px 0;
+}
+
+@media (min-width: 1024px) {
+    .services__page-title {
+        width: 75%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .services__page-title {
+        width: 80%;
+    }
 }
 
 .services__group {

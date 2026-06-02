@@ -295,7 +295,7 @@
     }
 
     .author__box-star {
-        display: block;
+        display: none;
         position: absolute;
         bottom: 0;
         right: 60px;
@@ -429,7 +429,7 @@
     }
 
     .author__box-star {
-        display: block;
+        display: none;
         position: absolute;
         bottom: 0;
         right: 25px;
